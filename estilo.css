@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0
+    
+}
+main{
+    width: 95%;
+    margin: 50px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#cabezera{
+    height: 120px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 5px;
+    border-bottom:5px solid rgb(91, 15, 15);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky ;
+    top: 0;
+    
+}
+#menuPrincipal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#menuPrincipal img{
+    margin-top:10px ;
+}
+#menuPrincipal h2{
+    margin-left: 20px;
+    border-top: 2px dotted;
+    border-bottom: 2px dotted;
+    border-color: black;
+    width:110px;
+    
+}
+#menuPrincipal h1{
+    text-decoration: double;
+    color: rgb(160, 27, 27);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left:20px ;
+}
+#opcionUno{
+    text-decoration: none;
+    color: black;
+    margin: 30px;
+    font-size: x-large;
+}
+#menuIzquierdo a:hover{
+    color: rgba(178, 26, 26, 0.904);
+}
+#opcionDos{
+    text-decoration: none;
+    color: black;
+    margin: 40px;
+    font-size: x-large;
+}
+#opcionTres{
+    text-decoration: none;
+    color: black;
+    margin: 40px;
+    font-size: x-large;
+}
+#menuDerecho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+    list-style: none;
+}
+#ubicacion a{
+    color: black;
+    text-decoration: none;
+    gap: 10.4px;
+    margin: 10px;
+}
+#ubicacion a:hover{
+    text-decoration: underline;
+}
+#ubicacion img{
+    width: 20px;
+}
+.boxWhite a{
+    text-decoration: none;
+    color: black;
+    margin: 30px;
+    padding: 10px;
+    width: 100px;
+    background-color:white;
+    border-color: black;
+    border-radius: 50px ;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+}
+.boxWhite a:hover{
+    background-color: black;
+    color: white;
+}
+.boxBlack a{
+    text-decoration: none;
+    color: white;
+    margin: 30px;
+    padding: 10px;
+    background-color: black;
+    border-color: white;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+}
+.boxBlack a:hover{
+    background-color: white;
+    color:black;
+    border-color: black;
+}
+#cuerpo{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.caja{
+    justify-content: center;
+    width: 90% ;
+    height: 720px;
+    margin: 10px auto;
+    display: flex;
+    
+}
+.post{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    font-size: xx-large;
+    color: rgb(94, 7, 7);
+}
+#cuerpo img{
+   margin-bottom: 5px;
+   width: 75%;   
+}
+#cuerpo h2{
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+#pulsador a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin-top: 20px;
+    background-color:rgb(240, 46, 46);
+    border-color: black;
+    border-radius: 50px ;
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+    display: inline-block;
+}
+#pulsador2 a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin-top: 20px;
+    background-color:rgb(240, 46, 46);
+    border-color: black;
+    border-radius: 50px ;
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+    display: inline-block;
+}
+#menuSecundario{
+    padding: 30px;
+    border-bottom:1px solid black ;
+    border-top: 1px solid black;
+    
+}
+#menuSecundario ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#indicador a{
+    text-decoration: none;
+    color: black;
+}
+
+#pie{
+    height: auto;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items:start;
+    padding: 10px;
+}
+#redes{
+    display: flex;
+    flex-direction: column;
+}
+#redes span{
+    color:gray;
+}
+#redes img{
+    width: 50px;
+}
+#derechos{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    width: 50%;
+    height: 100%;
+}
+#derechos img{
+    height: 120px;
+}
+
+#fondo{
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -100;
+}
